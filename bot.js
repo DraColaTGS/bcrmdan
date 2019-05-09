@@ -11,7 +11,7 @@ client.on('ready', () => {
   
 client.on('message', message => {
 
-const prefix = '-'
+const prefix = '$'
 
 if (message.content.startsWith(prefix + 'help')) { //DiamondCodes - [ X_KillerYT ]
     let pages = [`
